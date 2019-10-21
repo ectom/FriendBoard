@@ -26,7 +26,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '0^ns=^^3e5l_*=m)kpfxf0yi@y=+3@
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'serene-sierra-20175.herokuapp.com',
+]
 
 
 # Application definition
