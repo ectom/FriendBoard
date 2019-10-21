@@ -1,2 +1,2 @@
-web: gunicorn myapp.wsgi --log-file -
+web: gunicorn FriendBoard.wsgi --log-file -
 
